@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "React Timer",
+  "name": "25+5 Timer Created With React",
   "icons": [
     {
       "src": "favicon.ico",

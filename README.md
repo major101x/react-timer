@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# 25+5 Pomodoro Timer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The 25+5 Pomodoro Timer is a productivity tool based on the Pomodoro Technique, designed to help you stay focused and manage your time effectively. This simple web application allows you to set a 25-minute work session followed by a 5-minute break. It's a perfect tool for boosting productivity and preventing burnout during work or study sessions.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Set a custom session length (work time) and break length (short break time).
+- Start and pause the timer.
+- Reset the timer and lengths to default values.
+- Audio notification when the timer reaches zero.
 
-### `npm start`
+## How to Use
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository to your local machine:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+git clone https://github.com/major101x/react-timer.git
+cd react-timer
+```
 
-### `npm test`
+2. Install the dependencies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm install
+```
 
-### `npm run build`
+3. Run the application:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Open your web browser and navigate to `http://localhost:3000` to use the 25+5 Pomodoro Timer.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Structure
 
-### `npm run eject`
+- `src/App.js`: The main component of the application.
+- `src/App.scss`: Styling for the application.
+- `public/index.html`: HTML template for the application.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React: A JavaScript library for building user interfaces.
+- HTML and CSS: For structuring and styling the application.
+- JavaScript: For logic implementation.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Project Dependencies
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [React](https://reactjs.org/)
+- [FontAwesome](https://fontawesome.com/)
+- [Create React App](https://create-react-app.dev/)
 
-## Learn More
+## Credits
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project is part of the FreeCodeCamp curriculum. It was created by [Olayiwola Aroyeun](https://github.com/major101x).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Demo
 
-### Code Splitting
+You can view a demo of this website [here](https://major101x.github.io/react-timer).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
